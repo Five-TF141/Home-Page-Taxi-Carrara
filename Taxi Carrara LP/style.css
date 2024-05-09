@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 7%;
+    text-align: center;
+    text-align: left;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+.logo h1 {
+    color: #FCCB05;
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.menu {
+    flex: 66%;
+    margin-right: 7%;
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FCCB05;
+    font-size: 25px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    border-top: 2px solid #FCCB05;
+}
+
+#botaoFaleConosco {
+    background: #FCCB05;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+#botaoFaleConosco:hover {
+    border: none;
+}
+
+.header {
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.headline {
+    flex: 43%;
+    margin-left: 7%;
+    margin-top: -40px;
+    padding-top: 0px;
+}
+
+.img-headline {
+    margin-right: 7%;
+    flex: 43%;
+    text-align: center;
+}
+
+.headline h2 {
+    color: #FCCB05;
+    font-size: 25px;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+.headline p {
+    color: #0c1a65;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contactButton {
+    text-decoration: none;
+    color: white;
+    background: #FCCB05;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 175px;
+    margin-top: 55px;
+}
+
+.contactButton:hover {
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+
+}
+
+section {
+    display: inline-block;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2 {
+
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FCCB05;
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #0c1a65;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #FCCB05;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    padding-bottom: 20px;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: -24.5px;
+    height: auto;
+    background-image: linear-gradient(180deg, #0c1a65, black);
+    text-align: center;
+    border-top: 5px solid #FCCB05;
+    padding-bottom: 0.1px;
+}
+
+footer h1 {
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #FCCB05;
+}
+
+.wppContato {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 80px;
+}

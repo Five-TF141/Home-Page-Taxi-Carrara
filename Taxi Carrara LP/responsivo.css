@@ -1,0 +1,45 @@
+@media screen and (max-width:1005px) {
+
+    .navbar {
+        position: relative;
+        padding: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        margin-top: -64px;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .wppContato {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
